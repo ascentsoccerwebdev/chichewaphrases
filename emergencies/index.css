@@ -1,0 +1,71 @@
+body{
+    background-image:url("data:image/png;base64,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");
+   display: flex;
+    flex-direction: column;
+    align-items: flex;
+      text-shadow: red;
+    text-decoration-style: monoton;
+  }
+  .container{
+    display: flex;
+    felx-direction: row;
+    justify-content: center;
+    
+    margin: 15px;
+    width: 700px;
+  outline-style:  dashed;
+     outline-color: lime;
+  
+    border: 1px solid black;
+    border-style:solid dashed;
+    border-color: black;
+     border-width: thick;
+    background-color: yellow ;
+    border-radius: 10px;
+  }
+  
+  .phrase{
+    margin: 15px;
+    pedding: 10px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+    border: 3px Solid black;
+    border-style: double;
+    border-color: green;
+      border-center: thick;
+  color: black;  background-color: blue;
+   
+  
+   {
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px dashed;
+  }
+  
+  
+    
+  }
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body, html {
+    height: 10%;
+    margin: 0;
+  }
+  
+  
+  <html>
+  <head>
+  <style>
+  div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }

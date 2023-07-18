@@ -12,9 +12,9 @@ function printName(name) {
         title.style.color = 'black';
       }
     }
-      function searchPhrase(){
-        alert('You are searching the phrase: ' +         	document.getElementById('searchString').value);
-      }
+      // function searchPhrase(){
+      //   alert('You are searching the phrase: ' +         	document.getElementById('searchString').value);
+      // }
 
     function searchPhrase() {   
         var searchString = document.getElementById('searchString').value;
