@@ -1,0 +1,57 @@
+<HTML>
+    <head>
+        <link rel="stylesheet" type="text.css" href="index.css">
+        <style>
+            body {
+               background-color: rgb(20,30, 1);
+            }
+            h1{
+               color: blue;
+            }
+         </style>
+    </head>
+    <body>
+         <h1 id="title"><h1>🚨Emergency</h1>
+           <div>
+  <button onclick="printName('Tinga')">Go!</buttton>
+        <button onclick="changeTitle()">change Title</button>       
+      </div>
+      
+  
+           </div>
+   <div class="container">
+       <div
+         class="phrase">Hello?👋</div>
+       <div
+  class="phrase">Moni?👋</div>
+           </div>
+           
+   <div class="container">
+             <div class="phrase">Where is hospital?🏥</div>
+  <div
+       class="phrase">Chipatala chili kuti?🏥</div>
+           </div>
+           
+   <div class="container">
+        <div
+             class="phrase">Where is the police?🚔</div>
+  <div
+       class="phrase">Polisi ili kuti?🚔</div>
+           </div>
+           
+         <div class="container">
+           <div
+                class="phrase">Where is the bank?🏦</div>
+           <div
+                class="phrase">Banki ili kuti?🏦</div>
+           </div>
+   <form>
+     <input id="searchString"type="text"
+       placeholder="type your phase here..">
+     <input type="button" onclick="searchPhrase()" Value="search"/>
+    </form>
+           <div id="searchResults"></div>
+         
+    <script src="index.js"></script>
+    
+  </html>
