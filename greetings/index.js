@@ -15,6 +15,19 @@ function printName(name) {
       function searchPhrase(){
         alert('You are searching the phrase: ' +         	document.getElementById('searchString').value);
       }
-    function searchPhrase() {   var searchString = document.getElementById('searchString').value;   var phrases = document.getElementsByClassName('container');       for (var i = 0; i < phrases.length; i++) {        var phrase = phrases[i].innerText;        if ( phrase.toLowerCase().indexOf(searchString.toLowerCase()) > -1 ) {            updateResult(phrase)            return true;       }   }}
+
+    function searchPhrase() {   
+        var searchString = document.getElementById('searchString').value;
+        var phrases = document.getElementsByClassName('container');       
+        for (var i = 0; i < phrases.length; i++) {        
+            var phrase = phrases[i].innerText;        
+            if ( phrase.toLowerCase().indexOf(searchString.toLowerCase()) > -1 ) {
+                updateResult(phrase);            
+                return true;       
+            }   
+        }
+    }
     
-    function updateResult(result) {    document.getElementById('searchResults').innerText = result;}
+    function updateResult(result) {    
+        document.getElementById('searchResults').innerText = result;
+    }
