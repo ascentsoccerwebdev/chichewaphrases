@@ -1,0 +1,61 @@
+body{
+  
+  
+    flex-direction: column;
+    align-items: flex-st;
+    color:lime;
+    text-shadow:1px 1px red;
+    
+  }
+  .container{
+    display: flex;
+    felx-direction: Low;
+    justify-content: center;
+  
+    
+    border-radius: 250px;
+    background: 20px #73AD21;
+    padding: 10px;
+    width:2px;
+   
+  
+  
+    margin: 2px;
+    width: 800px;
+    
+    border: 5px solid black;
+   
+    
+     }
+  
+  .phrase{
+    margin: 1px;
+    pedding: 1px;
+    width: 500%;
+    text-aligin:center;
+   
+  border: 10px solid yellow;
+    background-color:red;
+  }
+  
+  @keyframes color {
+    0%   { background: lime; }
+    20%  { background: yellow; }
+    40%  { background: purple; }
+    60%  { background: orchid; }
+    80%  { background: sky blue; }
+    100% { background: blue; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2.5em;
+    color: white;
+  }
