@@ -163,3 +163,36 @@ footer > ul > a:hover {
 footer > ul > a > li {
   font-size: 1em;
 }
+
+/* This is the only Addition for About Page >>*/
+.aboutContainer {
+  padding-top: 5em;
+}
+.aboutContainer > div {
+  background-color: #3B3C36;
+  color: #e1e2e3;
+  margin: 0 20vw;
+  padding: 5em;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.4);
+  border-radius: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutContainer > div > img {
+  height: 150px;
+  width: 250px;
+  background-color: grey;
+}
+.aboutContainer > div > p {
+  width: 75%;
+  line-height: 1.7em;
+}
+.shiftR {
+  align-self: flex-end;
+}
+.shiftL {
+  align-self: flex-start;
+}
+/* << This is the only Addition for About Page */
