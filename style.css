@@ -47,6 +47,10 @@ h3.navbar-item {
   padding-left: 1em;
   padding-right: 1em;
 }
+.button-container a:hover {
+  background-color: rgba(166,167,168, 0.8);
+  color: #2a7348;
+}
 
 /* --== Banner CSS ==-- */
 .banner {
@@ -103,4 +107,59 @@ img {
 /* Add some padding inside the card container */
 .cardContainer {
   padding: 2px 16px;
+}
+
+/* Info container below the project links/cards */
+.infoContainer {
+  padding-top: 5em;
+  background-color: #3B3C36;
+}
+.infoContainer > div {
+  margin: 0 25vw;
+  color: #e1e2e3;
+  line-height: 1.7em;
+}
+
+
+/* Footer Styling */
+/* Basic footer styling */
+footer {
+  display: flex;
+  margin-top: 7em;
+  background-color: #2A7348;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 1em;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Logo styling in the footer */
+.avstLogo, .ascentLogo {
+  display: block;
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}
+
+/* List & Link styling in the footer */
+footer > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0 0em;
+}
+footer > ul > a {
+  color: #e1e2e3;
+  text-decoration: none;
+  margin: 0.5em 0;
+}
+footer > ul > a:hover {
+  text-shadow: 5px 5px rgba(0,0,0,0.5);
+  color: rgba(150,150,150,0.9);
+}
+footer > ul > a > li {
+  font-size: 1em;
 }
