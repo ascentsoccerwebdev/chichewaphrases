@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #e1e2e3;
   margin: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -135,8 +137,8 @@ img {
 footer {
   display: flex;
   margin-top: 7em;
-  background-color: #2A7348;
-  justify-content: space-between;
+  background-image: linear-gradient(45deg, #e87400 0%, #e87400 10%, rgba(255,255,255,0.1) 10%, rgba(255,255,255,0.1) 11%, #2a7348 11%, #2a7348 89%, rgba(255,255,255,0.1) 89%, rgba(255,255,255,0.1) 90%, #e87400 90%);
+  justify-content: center;
   align-items: center;
   
   padding: 1em;
@@ -148,6 +150,7 @@ footer {
   display: block;
   height: 6em;
   width: 6em;
+  margin: 0 1em;
   border-radius: 50%;
 }
 
@@ -190,8 +193,8 @@ footer > ul > a > li {
   align-items: center;
 }
 .aboutContainer > div > img {
-  height: 150px;
-  width: 250px;
+  height: 187.5px;
+  width: 312.5px;
   background-color: grey;
 }
 .aboutContainer > div > p {
