@@ -184,7 +184,7 @@ footer > ul > a > li {
   background-color: #3B3C36;
   color: #e1e2e3;
   margin: 0 20vw;
-  padding: 5em;
+  padding: 2em;
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.4);
   border-radius: 5px;
   
@@ -192,9 +192,16 @@ footer > ul > a > li {
   flex-direction: column;
   align-items: center;
 }
-.aboutContainer > div > img {
-  height: 187.5px;
-  width: 312.5px;
+.aboutContainer > div > div {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutContainer > div > div > img {
+  height: 234.375px;
+  width: 390.625px;
   background-color: grey;
 }
 .aboutContainer > div > p {
