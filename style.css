@@ -77,7 +77,7 @@ h3.navbar-item {
   margin-left: 1em;
 }
 .banner img {
-  margin-right: 2.5em;
+  margin-right: 3em;
   width: 10em;
   height: 10em;
 }
@@ -178,7 +178,7 @@ footer > ul > a > li {
 
 /* This is the only Addition for About Page >>*/
 .aboutContainer {
-  padding-top: 5em;
+  padding-top: 2em;
 }
 .aboutContainer > div {
   background-color: #3B3C36;
@@ -192,6 +192,9 @@ footer > ul > a > li {
   flex-direction: column;
   align-items: center;
 }
+.aboutContainer > div > h4 {
+  font-size: 1.25em;
+}
 .aboutContainer > div > div {
   padding: 2em;
   display: flex;
@@ -200,8 +203,8 @@ footer > ul > a > li {
 }
 
 .aboutContainer > div > div > img {
-  height: 234.375px;
-  width: 390.625px;
+  height: 187.5px;
+  width: 312.5px;
   background-color: grey;
   border-radius: 0;
 }
