@@ -203,6 +203,7 @@ footer > ul > a > li {
   height: 234.375px;
   width: 390.625px;
   background-color: grey;
+  border-radius: 0;
 }
 .aboutContainer > div > p {
   width: 75%;
