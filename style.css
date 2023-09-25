@@ -218,6 +218,7 @@ footer > ul > a > li {
   font-size: 1.25em;
 }
 .aboutContainer > div > div {
+  width: 100%;
   padding: 2em 0;
   display: flex;
   flex-direction: row;
@@ -241,3 +242,156 @@ footer > ul > a > li {
   align-self: flex-start;
 }
 /* << This is the only Addition for About Page */
+
+
+/* Media Query for Sizing */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .banner {
+      padding-left: 1em;
+    }
+    .banner h1 {
+      margin-left: 0em;
+      font-size: 2em;
+    }
+    .banner img {
+      margin-right: 1em;
+      width: 5em;
+      height: 5em;
+    }
+
+    .infoContainer {
+      padding-top: 3em;
+    }
+    .infoContainer > div {
+      margin: 0 5vw;
+    }
+
+    .avstLogo, .ascentLogo {
+      height: 4em;
+      width: 4em;
+    }
+
+    /* About Page */
+    .aboutContainer > div {
+      margin: 0;
+    }
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .banner {
+      padding-left: 1em;
+    }
+    .banner h1 {
+      margin-left: 0em;
+      font-size: 2em;
+    }
+    .banner img {
+      margin-right: 1em;
+      width: 5em;
+      height: 5em;
+    }
+
+    .infoContainer {
+      padding-top: 3em;
+    }
+    .infoContainer > div {
+      margin: 0 5vw;
+    }
+
+    .avstLogo, .ascentLogo {
+      height: 4em;
+      width: 4em;
+    }
+
+    /* About Page */
+    .aboutContainer > div {
+      margin: 0;
+    }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .banner {
+      padding-left: 1em;
+    }
+    .banner h1 {
+      margin-left: 0em;
+      font-size: 2em;
+    }
+    .banner img {
+      margin-right: 1em;
+      width: 5em;
+      height: 5em;
+    }
+
+    .infoContainer {
+      padding-top: 3em;
+    }
+    .infoContainer > div {
+      margin: 0 5vw;
+    }
+
+    .avstLogo, .ascentLogo {
+      height: 4em;
+      width: 4em;
+    }
+
+    /* About Page */
+    .aboutContainer > div {
+      margin: 0;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .banner {
+      padding-left: 1em;
+    }
+    .banner h1 {
+      margin-left: 0em;
+      font-size: 2em;
+    }
+    .banner img {
+      margin-right: 1em;
+      width: 5em;
+      height: 5em;
+    }
+
+    .infoContainer {
+      padding-top: 3em;
+    }
+    .infoContainer > div {
+      margin: 0 5vw;
+    }
+
+    .avstLogo, .ascentLogo {
+      height: 4em;
+      width: 4em;
+    }
+
+    /* About Page */
+    .aboutContainer > div {
+      margin: 0;
+    }
+}
