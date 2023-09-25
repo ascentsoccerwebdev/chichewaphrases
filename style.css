@@ -261,7 +261,7 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .banner {
-      padding-left: 0em;
+      padding-left: 1em;
     }
     .banner h1 {
       margin-left: 1em;
@@ -313,7 +313,7 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
-      padding-left: 0em;
+      padding-left: 1em;
     }
     .banner h1 {
       margin-left: 1em;
@@ -363,7 +363,7 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .banner {
-      padding-left: 0em;
+      padding-left: 1em;
     }
     .banner h1 {
       margin-left: 1em;
@@ -413,7 +413,7 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
-      padding-left: 0em;
+      padding-left: 1em;
     }
     .banner h1 {
       margin-left: 1em;
