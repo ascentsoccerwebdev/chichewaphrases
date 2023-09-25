@@ -225,8 +225,8 @@ footer > ul > a > li {
 }
 
 .aboutContainer > div > div > img {
-  /* height: 187.5px; */
-  width: 40%;
+  height: 150px;
+  width: 250px;
   background-color: grey;
   border-radius: 0;
 }
