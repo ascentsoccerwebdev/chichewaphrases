@@ -218,11 +218,11 @@ footer > ul > a > li {
   font-size: 1.25em;
 }
 .aboutContainer > div > div {
-  width: 100%;
+  width: 75%;
   padding: 2em 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboutContainer > div > div > img {
@@ -253,11 +253,11 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .banner {
-      padding-left: 1em;
+      padding-left: 3em;
     }
     .banner h1 {
-      margin-left: 0em;
-      font-size: 2em;
+      margin-left: 1em;
+      font-size: 1.5em;
     }
     .banner img {
       margin-right: 1em;
@@ -280,6 +280,14 @@ footer > ul > a > li {
     /* About Page */
     .aboutContainer > div {
       margin: 0;
+    }
+    .aboutContainer > div > div {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .aboutContainer > div > p {
+      width: 100%;
     }
 
 
@@ -292,11 +300,11 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
-      padding-left: 1em;
+      padding-left: 3em;
     }
     .banner h1 {
-      margin-left: 0em;
-      font-size: 2em;
+      margin-left: 1em;
+      font-size: 1.5em;
     }
     .banner img {
       margin-right: 1em;
@@ -319,6 +327,10 @@ footer > ul > a > li {
     /* About Page */
     .aboutContainer > div {
       margin: 0;
+    }
+
+    .aboutContainer > div > p {
+      width: 100%;
     }
 }
 /* ----------- iPhone X ----------- */
@@ -329,11 +341,11 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .banner {
-      padding-left: 1em;
+      padding-left: 3em;
     }
     .banner h1 {
-      margin-left: 0em;
-      font-size: 2em;
+      margin-left: 1em;
+      font-size: 1.5em;
     }
     .banner img {
       margin-right: 1em;
@@ -356,6 +368,10 @@ footer > ul > a > li {
     /* About Page */
     .aboutContainer > div {
       margin: 0;
+    }
+
+    .aboutContainer > div > p {
+      width: 100%;
     }
 }
 
@@ -366,11 +382,11 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
-      padding-left: 1em;
+      padding-left: 3em;
     }
     .banner h1 {
-      margin-left: 0em;
-      font-size: 2em;
+      margin-left: 1em;
+      font-size: 1.5em;
     }
     .banner img {
       margin-right: 1em;
@@ -393,5 +409,9 @@ footer > ul > a > li {
     /* About Page */
     .aboutContainer > div {
       margin: 0;
+    }
+
+    .aboutContainer > div > p {
+      width: 100%;
     }
 }
