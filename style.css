@@ -262,6 +262,7 @@ footer > ul > a > li {
   and (orientation: portrait) { 
     .banner {
       padding-left: 1em;
+      height: 8em;
     }
     .banner h1 {
       margin-left: 1em;
@@ -314,6 +315,7 @@ footer > ul > a > li {
   and (orientation: landscape) { 
     .banner {
       padding-left: 1em;
+      height: 8em;
     }
     .banner h1 {
       margin-left: 1em;
@@ -364,6 +366,7 @@ footer > ul > a > li {
   and (orientation: portrait) { 
     .banner {
       padding-left: 1em;
+      height: 8em;
     }
     .banner h1 {
       margin-left: 1em;
@@ -414,6 +417,7 @@ footer > ul > a > li {
   and (orientation: landscape) { 
     .banner {
       padding-left: 1em;
+      height: 8em;
     }
     .banner h1 {
       margin-left: 1em;
