@@ -75,6 +75,8 @@ h3.navbar-item {
 
 .banner h1 {
   margin-left: 1em;
+  -webkit-text-stroke: 0.2px rgba(0,0,0,0.2);
+  font-weight: 900;
 }
 .banner img {
   margin-right: 3em;
@@ -223,6 +225,7 @@ footer > ul > a > li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  /* align-items: center; */
 }
 
 .aboutContainer > div > div > img {
@@ -230,21 +233,26 @@ footer > ul > a > li {
   width: 250px;
   background-color: grey;
   border-radius: 0;
+  /* margin: 1em 0; */
 }
 .aboutContainer > div > p {
   width: 75%;
   line-height: 1.7em;
 }
-.shiftR {
+/* .shiftR {
   align-self: flex-end;
 }
 .shiftL {
   align-self: flex-start;
-}
+} */
 /* << This is the only Addition for About Page */
 
 
+
+
 /* Media Query for Sizing */
+
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Portrait */
 @media only screen 
@@ -253,11 +261,12 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .banner {
-      padding-left: 3em;
+      padding-left: 0em;
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      -webkit-text-stroke: 0.2px rgba(0,0,0,0.5);
     }
     .banner img {
       margin-right: 1em;
@@ -284,7 +293,11 @@ footer > ul > a > li {
     .aboutContainer > div > div {
       width: 100%;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
+    }
+    .aboutContainer > div > div > img {
+      margin: 1em 0;
     }
     .aboutContainer > div > p {
       width: 100%;
@@ -300,11 +313,12 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
-      padding-left: 3em;
+      padding-left: 0em;
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      -webkit-text-stroke: 0.2px rgba(0,0,0,0.5);
     }
     .banner img {
       margin-right: 1em;
@@ -328,7 +342,15 @@ footer > ul > a > li {
     .aboutContainer > div {
       margin: 0;
     }
-
+    .aboutContainer > div > div {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutContainer > div > div > img {
+      margin: 1em 0;
+    }
     .aboutContainer > div > p {
       width: 100%;
     }
@@ -341,11 +363,12 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .banner {
-      padding-left: 3em;
+      padding-left: 0em;
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      -webkit-text-stroke: 0.2px rgba(0,0,0,0.5);
     }
     .banner img {
       margin-right: 1em;
@@ -369,7 +392,15 @@ footer > ul > a > li {
     .aboutContainer > div {
       margin: 0;
     }
-
+    .aboutContainer > div > div {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutContainer > div > div > img {
+      margin: 1em 0;
+    }
     .aboutContainer > div > p {
       width: 100%;
     }
@@ -382,11 +413,12 @@ footer > ul > a > li {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
-      padding-left: 3em;
+      padding-left: 0em;
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      -webkit-text-stroke: 0.2px rgba(0,0,0,0.5);
     }
     .banner img {
       margin-right: 1em;
@@ -410,7 +442,15 @@ footer > ul > a > li {
     .aboutContainer > div {
       margin: 0;
     }
-
+    .aboutContainer > div > div {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutContainer > div > div > img {
+      margin: 1em 0;
+    }
     .aboutContainer > div > p {
       width: 100%;
     }
