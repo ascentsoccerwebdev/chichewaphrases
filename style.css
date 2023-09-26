@@ -77,7 +77,7 @@ h3.navbar-item {
   margin-left: 1em;
   -webkit-text-stroke: 0.2px rgba(0,0,0,0.2);
   font-weight: 900;
-  max-width: 30%;
+  width: 30%;
 }
 .banner img {
   margin-right: 3em;
@@ -263,11 +263,12 @@ footer > ul > a > li {
     .banner {
       padding-left: 1em;
       height: 8em;
-      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 40%, #3b3c369b 40%, #3b3c36c5 41%, #2a7348 41%, #2a7348 44%, #3b3c369b 44%, #3b3c36c5 45%, #2a7348 45%, #2a7348 48%, #3b3c369b 48%, #3b3c36c5 49%, #2a7348 49%, #2a7348 52%, #3b3c369b 52%, #3b3c36c5 53%, #2a7348 53%, #e87400 53%);
+      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 65%, white 65%, silver 66%, #2a7348 66%, #2a7348 69%, white 69%, silver 70%, #2a7348 70%, #2a7348 73%, white 73%, silver 74%, #2a7348 74%, #2a7348 77%, white 77%, silver 78%, #2a7348 78%, #e87400 78%);
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      width: 50%;
     }
     .banner img {
       margin-right: 1em;
@@ -316,11 +317,12 @@ footer > ul > a > li {
     .banner {
       padding-left: 1em;
       height: 8em;
-      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 40%, #3b3c369b 40%, #3b3c36c5 41%, #2a7348 41%, #2a7348 44%, #3b3c369b 44%, #3b3c36c5 45%, #2a7348 45%, #2a7348 48%, #3b3c369b 48%, #3b3c36c5 49%, #2a7348 49%, #2a7348 52%, #3b3c369b 52%, #3b3c36c5 53%, #2a7348 53%, #e87400 53%);
+      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 65%, white 65%, silver 66%, #2a7348 66%, #2a7348 69%, white 69%, silver 70%, #2a7348 70%, #2a7348 73%, white 73%, silver 74%, #2a7348 74%, #2a7348 77%, white 77%, silver 78%, #2a7348 78%, #e87400 78%);
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      width: 50%;
     }
     .banner img {
       margin-right: 1em;
@@ -367,11 +369,12 @@ footer > ul > a > li {
     .banner {
       padding-left: 1em;
       height: 8em;
-      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 40%, #3b3c369b 40%, #3b3c36c5 41%, #2a7348 41%, #2a7348 44%, #3b3c369b 44%, #3b3c36c5 45%, #2a7348 45%, #2a7348 48%, #3b3c369b 48%, #3b3c36c5 49%, #2a7348 49%, #2a7348 52%, #3b3c369b 52%, #3b3c36c5 53%, #2a7348 53%, #e87400 53%);
+      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 65%, white 65%, silver 66%, #2a7348 66%, #2a7348 69%, white 69%, silver 70%, #2a7348 70%, #2a7348 73%, white 73%, silver 74%, #2a7348 74%, #2a7348 77%, white 77%, silver 78%, #2a7348 78%, #e87400 78%);
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      width: 50%;
     }
     .banner img {
       margin-right: 1em;
@@ -418,11 +421,12 @@ footer > ul > a > li {
     .banner {
       padding-left: 1em;
       height: 8em;
-      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 40%, #3b3c369b 40%, #3b3c36c5 41%, #2a7348 41%, #2a7348 44%, #3b3c369b 44%, #3b3c36c5 45%, #2a7348 45%, #2a7348 48%, #3b3c369b 48%, #3b3c36c5 49%, #2a7348 49%, #2a7348 52%, #3b3c369b 52%, #3b3c36c5 53%, #2a7348 53%, #e87400 53%);
+      background-image: linear-gradient(45deg, #2a7348 0%, #2a7348 65%, white 65%, silver 66%, #2a7348 66%, #2a7348 69%, white 69%, silver 70%, #2a7348 70%, #2a7348 73%, white 73%, silver 74%, #2a7348 74%, #2a7348 77%, white 77%, silver 78%, #2a7348 78%, #e87400 78%);
     }
     .banner h1 {
       margin-left: 1em;
       font-size: 1.5em;
+      width: 50%;
     }
     .banner img {
       margin-right: 1em;
@@ -462,16 +466,22 @@ footer > ul > a > li {
 
 /* ---------Laptops---------- */
 
-/* @media screen 
+@media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
-} */
+    .aboutContainer > div {
+      margin: 0 10vw;
+    }
+}
 
 /* ----------- Retina Screens ----------- */
-/* @media screen 
+ @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
-} */
+    .aboutContainer > div {
+      margin: 0 10vw;
+    }
+}
