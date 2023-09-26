@@ -77,6 +77,7 @@ h3.navbar-item {
   margin-left: 1em;
   -webkit-text-stroke: 0.2px rgba(0,0,0,0.2);
   font-weight: 900;
+  max-width: 30%;
 }
 .banner img {
   margin-right: 3em;
@@ -122,7 +123,7 @@ img {
 
 /* Info container below the project links/cards */
 .infoContainer {
-  padding-top: 3em;
+  padding-top: 5em;
   background-color: #3B3C36;
 }
 .infoContainer > div {
@@ -141,7 +142,7 @@ img {
 /* Basic footer styling */
 footer {
   display: flex;
-  margin-top: 3em;
+  margin-top: 5em;
   background-image: 
   linear-gradient(45deg, 
     #ff6633 0%, 
@@ -201,7 +202,7 @@ footer > ul > a > li {
 
 /* This is the only Addition for About Page >>*/
 .aboutContainer {
-  padding-top: 3em;
+  padding-top: 5em;
 }
 .aboutContainer > div {
   background-color: #3B3C36;
@@ -281,26 +282,6 @@ footer > ul > a > li {
       margin: 0 5vw;
     }
 
-    .footer {
-      background-image: linear-gradient(45deg, 
-      #e87400 0%, 
-      #e87400 10%, 
-      #3b3c369b 10%, 
-      #3b3c36c5 11%, 
-      #e87400 11%, 
-      #e87400 14%,
-      #3b3c369b 14%, 
-      #3b3c36c5 15%,
-      #2a7348 15%,
-      #2a7348 85%,
-      #3b3c369b 85%, 
-      #3b3c36c5 86%,
-      #e87400 86%,
-      #e87400 89%, 
-      #3b3c369b 89%,
-      #3b3c36c5 90%,
-      #e87400 90%);
-    }
     .avstLogo, .ascentLogo {
       height: 4em;
       width: 4em;
@@ -354,27 +335,6 @@ footer > ul > a > li {
       margin: 0 5vw;
     }
 
-    .footer {
-      background-image: 
-    linear-gradient(45deg, 
-      #e87400 0%, 
-      #e87400 10%, 
-      #3b3c369b 10%, 
-      #3b3c36c5 11%, 
-      #e87400 11%, 
-      #e87400 14%,
-      #3b3c369b 14%, 
-      #3b3c36c5 15%,
-      #2a7348 15%,
-      #2a7348 85%,
-      #3b3c369b 85%, 
-      #3b3c36c5 86%,
-      #e87400 86%,
-      #e87400 89%, 
-      #3b3c369b 89%,
-      #3b3c36c5 90%,
-      #e87400 90%);
-    }
     .avstLogo, .ascentLogo {
       height: 4em;
       width: 4em;
@@ -426,27 +386,6 @@ footer > ul > a > li {
       margin: 0 5vw;
     }
 
-    .footer {
-      background-image: 
-    linear-gradient(45deg, 
-      #e87400 0%, 
-      #e87400 10%, 
-      #3b3c369b 10%, 
-      #3b3c36c5 11%, 
-      #e87400 11%, 
-      #e87400 14%,
-      #3b3c369b 14%, 
-      #3b3c36c5 15%,
-      #2a7348 15%,
-      #2a7348 85%,
-      #3b3c369b 85%, 
-      #3b3c36c5 86%,
-      #e87400 86%,
-      #e87400 89%, 
-      #3b3c369b 89%,
-      #3b3c36c5 90%,
-      #e87400 90%);
-    }
     .avstLogo, .ascentLogo {
       height: 4em;
       width: 4em;
@@ -498,27 +437,6 @@ footer > ul > a > li {
       margin: 0 5vw;
     }
 
-    .footer {
-      background-image: 
-    linear-gradient(45deg, 
-      #e87400 0%, 
-      #e87400 10%, 
-      #3b3c369b 10%, 
-      #3b3c36c5 11%, 
-      #e87400 11%, 
-      #e87400 14%,
-      #3b3c369b 14%, 
-      #3b3c36c5 15%,
-      #2a7348 15%,
-      #2a7348 85%,
-      #3b3c369b 85%, 
-      #3b3c36c5 86%,
-      #e87400 86%,
-      #e87400 89%, 
-      #3b3c369b 89%,
-      #3b3c36c5 90%,
-      #e87400 90%);
-    }
     .avstLogo, .ascentLogo {
       height: 4em;
       width: 4em;
@@ -541,3 +459,19 @@ footer > ul > a > li {
       width: 100%;
     }
 }
+
+/* ---------Laptops---------- */
+
+/* @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+} */
+
+/* ----------- Retina Screens ----------- */
+/* @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+} */
